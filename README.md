@@ -7,8 +7,8 @@ Built using **HTML, CSS, Bootstrap 5**, and integrated with a clean responsive U
 
 ## 🚀 Live Demo
 
-👉 **[View Live Portfolio](https://yourusername.github.io/portfolio/)**  
-*(Replace with your actual GitHub Pages or hosted link)*
+👉 **[View Live Portfolio](https://venkateshjaggaraju.github.io/portfolio/)**  
+*(Hosted using GitHub Pages)*
 
 ---
 
@@ -62,16 +62,17 @@ I love solving real-world problems through efficient and scalable web applicatio
 
 ## 📊 GitHub Stats
 
-![Venkatesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight)
-
-*(Replace `yourusername` with your actual GitHub username)*
+![Venkatesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=venkateshjaggaraju&show_icons=true&theme=tokyonight)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=venkateshjaggaraju&layout=compact&theme=tokyonight)
 
 ---
 
 ## 🌍 Connect with Me
 
 <p align="center">
+  <a href="https://github.com/venkateshjaggaraju" target="_blank">
+    <img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="GitHub"/>
+  </a>
   <a href="https://www.linkedin.com/in/venkatesh-jaggaraju-648281259/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/>
   </a>
@@ -91,7 +92,8 @@ I love solving real-world problems through efficient and scalable web applicatio
 ## 📫 Contact
 
 📧 **Email:** [venkateshjaggaraju2002@gmail.com](mailto:venkateshjaggaraju2002@gmail.com)  
-📱 **Phone:** [+91 96183 48231](tel:+919618348231)
+📱 **Phone:** [+91 96183 48231](tel:+919618348231)  
+💻 **GitHub:** [github.com/venkateshjaggaraju](https://github.com/venkateshjaggaraju)
 
 ---
 
