@@ -3,469 +3,428 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub README Preview</title>
+    <title>README Preview</title>
     <style>
-:root {
-  /* Primitive Color Tokens */
-  --color-white: rgba(255, 255, 255, 1);
-  --color-black: rgba(0, 0, 0, 1);
-  --color-cream-50: rgba(252, 252, 249, 1);
-  --color-cream-100: rgba(255, 255, 253, 1);
-  --color-gray-200: rgba(245, 245, 245, 1);
-  --color-gray-300: rgba(167, 169, 169, 1);
-  --color-gray-400: rgba(119, 124, 124, 1);
-  --color-slate-500: rgba(98, 108, 113, 1);
-  --color-brown-600: rgba(94, 82, 64, 1);
-  --color-charcoal-700: rgba(31, 33, 33, 1);
-  --color-charcoal-800: rgba(38, 40, 40, 1);
-  --color-slate-900: rgba(19, 52, 59, 1);
-  --color-teal-300: rgba(50, 184, 198, 1);
-  --color-teal-400: rgba(45, 166, 178, 1);
-  --color-teal-500: rgba(33, 128, 141, 1);
-  --color-teal-600: rgba(29, 116, 128, 1);
-  --color-teal-700: rgba(26, 104, 115, 1);
-  --color-teal-800: rgba(41, 150, 161, 1);
-  --color-red-400: rgba(255, 84, 89, 1);
-  --color-red-500: rgba(192, 21, 47, 1);
-  --color-orange-400: rgba(230, 129, 97, 1);
-  --color-orange-500: rgba(168, 75, 47, 1);
+        :root {
+            --color-bg: #0d1117;
+            --color-surface: #161b22;
+            --color-border: #30363d;
+            --color-text: #c9d1d9;
+            --color-text-muted: #8b949e;
+            --color-primary: #58a6ff;
+            --color-success: #3fb950;
+            --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+        }
 
-  /* RGB versions for opacity control */
-  --color-brown-600-rgb: 94, 82, 64;
-  --color-teal-500-rgb: 33, 128, 141;
-  --color-slate-900-rgb: 19, 52, 59;
-  --color-slate-500-rgb: 98, 108, 113;
-  --color-red-500-rgb: 192, 21, 47;
-  --color-red-400-rgb: 255, 84, 89;
-  --color-orange-500-rgb: 168, 75, 47;
-  --color-orange-400-rgb: 230, 129, 97;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            padding: 40px 20px;
+            margin: 0;
+        }
 
-  /* Background color tokens (Light Mode) */
-  --color-bg-1: rgba(59, 130, 246, 0.08);
-  --color-bg-2: rgba(245, 158, 11, 0.08);
-  --color-bg-3: rgba(34, 197, 94, 0.08);
-  --color-bg-4: rgba(239, 68, 68, 0.08);
-  --color-bg-5: rgba(147, 51, 234, 0.08);
-  --color-bg-6: rgba(249, 115, 22, 0.08);
-  --color-bg-7: rgba(236, 72, 153, 0.08);
-  --color-bg-8: rgba(6, 182, 212, 0.08);
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--color-surface);
+            padding: 40px;
+            border-radius: 6px;
+            border: 1px solid var(--color-border);
+        }
 
-  /* Semantic Color Tokens (Light Mode) */
-  --color-background: var(--color-cream-50);
-  --color-surface: var(--color-cream-100);
-  --color-text: var(--color-slate-900);
-  --color-text-secondary: var(--color-slate-500);
-  --color-primary: var(--color-teal-500);
-  --color-primary-hover: var(--color-teal-600);
-  --color-primary-active: var(--color-teal-700);
-  --color-secondary: rgba(var(--color-brown-600-rgb), 0.12);
-  --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2);
-  --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25);
-  --color-border: rgba(var(--color-brown-600-rgb), 0.2);
-  --color-btn-primary-text: var(--color-cream-50);
-  --color-card-border: rgba(var(--color-brown-600-rgb), 0.12);
-  --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12);
-  --color-error: var(--color-red-500);
-  --color-success: var(--color-teal-500);
-  --color-warning: var(--color-orange-500);
-  --color-info: var(--color-slate-500);
-  --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4);
-  --color-select-caret: rgba(var(--color-slate-900-rgb), 0.8);
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid var(--color-border);
+            padding-bottom: 0.3em;
+        }
 
-  /* Typography */
-  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
-    Monaco, Consolas, monospace;
-  --font-size-xs: 11px;
-  --font-size-sm: 12px;
-  --font-size-base: 14px;
-  --font-size-md: 14px;
-  --font-size-lg: 16px;
-  --font-size-xl: 18px;
-  --font-size-2xl: 20px;
-  --font-size-3xl: 24px;
-  --font-size-4xl: 30px;
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 550;
-  --font-weight-bold: 600;
-  --line-height-tight: 1.2;
-  --line-height-normal: 1.5;
-  --letter-spacing-tight: -0.01em;
+        h2 {
+            font-size: 1.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid var(--color-border);
+            padding-bottom: 0.3em;
+        }
 
-  /* Spacing */
-  --space-0: 0;
-  --space-1: 1px;
-  --space-2: 2px;
-  --space-4: 4px;
-  --space-6: 6px;
-  --space-8: 8px;
-  --space-10: 10px;
-  --space-12: 12px;
-  --space-16: 16px;
-  --space-20: 20px;
-  --space-24: 24px;
-  --space-32: 32px;
+        h3 {
+            font-size: 1.25em;
+            margin-top: 1.2em;
+            margin-bottom: 0.5em;
+        }
 
-  /* Border Radius */
-  --radius-sm: 6px;
-  --radius-base: 8px;
-  --radius-md: 10px;
-  --radius-lg: 12px;
-  --radius-full: 9999px;
+        a {
+            color: var(--color-primary);
+            text-decoration: none;
+        }
 
-  /* Shadows */
-  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02);
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04),
-    0 2px 4px -1px rgba(0, 0, 0, 0.02);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04),
-    0 4px 6px -2px rgba(0, 0, 0, 0.02);
-  --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.15),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.03);
+        a:hover {
+            text-decoration: underline;
+        }
 
-  /* Animation */
-  --duration-fast: 150ms;
-  --duration-normal: 250ms;
-  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
-}
+        code {
+            background: var(--color-bg);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-family: var(--font-mono);
+            font-size: 0.9em;
+        }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-gray-400-rgb: 119, 124, 124;
-    --color-teal-300-rgb: 50, 184, 198;
-    --color-gray-300-rgb: 167, 169, 169;
-    --color-gray-200-rgb: 245, 245, 245;
+        pre {
+            background: var(--color-bg);
+            padding: 16px;
+            border-radius: 6px;
+            overflow: auto;
+            border: 1px solid var(--color-border);
+        }
 
-    --color-bg-1: rgba(29, 78, 216, 0.15);
-    --color-bg-2: rgba(180, 83, 9, 0.15);
-    --color-bg-3: rgba(21, 128, 61, 0.15);
-    --color-bg-4: rgba(185, 28, 28, 0.15);
-    --color-bg-5: rgba(107, 33, 168, 0.15);
-    --color-bg-6: rgba(194, 65, 12, 0.15);
-    --color-bg-7: rgba(190, 24, 93, 0.15);
-    --color-bg-8: rgba(8, 145, 178, 0.15);
+        pre code {
+            background: none;
+            padding: 0;
+        }
 
-    --color-background: var(--color-charcoal-700);
-    --color-surface: var(--color-charcoal-800);
-    --color-text: var(--color-gray-200);
-    --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
-    --color-primary: var(--color-teal-300);
-    --color-primary-hover: var(--color-teal-400);
-    --color-primary-active: var(--color-teal-800);
-    --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
-    --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
-    --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
-    --color-border: rgba(var(--color-gray-400-rgb), 0.3);
-    --color-error: var(--color-red-400);
-    --color-success: var(--color-teal-300);
-    --color-warning: var(--color-orange-400);
-    --color-info: var(--color-gray-300);
-    --color-focus-ring: rgba(var(--color-teal-300-rgb), 0.4);
-    --color-btn-primary-text: var(--color-slate-900);
-    --color-card-border: rgba(var(--color-gray-400-rgb), 0.2);
-    --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15);
-  }
-}
+        ul, ol {
+            padding-left: 2em;
+        }
 
-body {
-  font-family: var(--font-family-base);
-  background: var(--color-background);
-  color: var(--color-text);
-  line-height: var(--line-height-normal);
-  margin: 0;
-  padding: var(--space-24);
-  max-width: 1000px;
-  margin: 0 auto;
-}
+        li {
+            margin: 0.25em 0;
+        }
 
-.readme-container {
-  background: var(--color-surface);
-  padding: var(--space-32);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--color-card-border);
-}
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            margin: 2px;
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+        }
 
-h1, h2 {
-  color: var(--color-text);
-  font-weight: var(--font-weight-bold);
-  margin-top: var(--space-24);
-  margin-bottom: var(--space-16);
-}
+        .highlight {
+            color: var(--color-success);
+        }
 
-h1 {
-  font-size: var(--font-size-4xl);
-  text-align: center;
-  border-bottom: 2px solid var(--color-primary);
-  padding-bottom: var(--space-16);
-}
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 
-h2 {
-  font-size: var(--font-size-2xl);
-  border-bottom: 1px solid var(--color-border);
-  padding-bottom: var(--space-8);
-}
+        blockquote {
+            margin: 1em 0;
+            padding-left: 1em;
+            border-left: 3px solid var(--color-border);
+            color: var(--color-text-muted);
+        }
 
-p {
-  color: var(--color-text-secondary);
-  margin-bottom: var(--space-16);
-  line-height: 1.7;
-}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+        }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-8);
-  margin: var(--space-16) 0;
-}
+        th, td {
+            padding: 8px 12px;
+            border: 1px solid var(--color-border);
+            text-align: left;
+        }
 
-.skill-badge {
-  background: var(--color-secondary);
-  color: var(--color-text);
-  padding: var(--space-6) var(--space-12);
-  border-radius: var(--radius-full);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  border: 1px solid var(--color-border);
-  transition: all var(--duration-fast) var(--ease-standard);
-}
-
-.skill-badge:hover {
-  background: var(--color-secondary-hover);
-  transform: translateY(-2px);
-}
-
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-20);
-  margin: var(--space-20) 0;
-}
-
-.project-card {
-  background: var(--color-background);
-  border: 1px solid var(--color-card-border);
-  border-radius: var(--radius-md);
-  padding: var(--space-20);
-  transition: all var(--duration-normal) var(--ease-standard);
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--color-primary);
-}
-
-.project-card h3 {
-  color: var(--color-primary);
-  font-size: var(--font-size-xl);
-  margin-top: 0;
-  margin-bottom: var(--space-12);
-}
-
-.project-card p {
-  font-size: var(--font-size-base);
-  margin-bottom: var(--space-12);
-}
-
-.tech-stack {
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-  font-style: italic;
-}
-
-.contact-section {
-  background: var(--color-bg-1);
-  border-radius: var(--radius-md);
-  padding: var(--space-20);
-  margin-top: var(--space-24);
-  border: 1px solid var(--color-card-border);
-}
-
-.contact-links {
-  display: flex;
-  gap: var(--space-16);
-  flex-wrap: wrap;
-  margin-top: var(--space-16);
-}
-
-.contact-link {
-  color: var(--color-primary);
-  text-decoration: none;
-  font-weight: var(--font-weight-medium);
-  transition: color var(--duration-fast) var(--ease-standard);
-}
-
-.contact-link:hover {
-  color: var(--color-primary-hover);
-  text-decoration: underline;
-}
-
-.stats {
-  display: flex;
-  justify-content: center;
-  gap: var(--space-16);
-  margin: var(--space-24) 0;
-  flex-wrap: wrap;
-}
-
-.stat-item {
-  background: var(--color-bg-3);
-  padding: var(--space-12) var(--space-20);
-  border-radius: var(--radius-base);
-  border: 1px solid var(--color-card-border);
-  text-align: center;
-}
-
-.code-block {
-  background: var(--color-secondary);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  padding: var(--space-16);
-  margin: var(--space-16) 0;
-  overflow-x: auto;
-  font-family: var(--font-family-mono);
-  font-size: var(--font-size-sm);
-  color: var(--color-text);
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: var(--space-12);
-  }
-  
-  .readme-container {
-    padding: var(--space-20);
-  }
-  
-  .projects {
-    grid-template-columns: 1fr;
-  }
-  
-  .stats {
-    flex-direction: column;
-  }
-}
+        th {
+            background: var(--color-bg);
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
-    <div class="readme-container">
-        <h1>👋 Hi, I'm Venkatesh Jaggaraju</h1>
-        
-        <div style="text-align: center; margin: var(--space-24) 0;">
-            <p style="font-size: var(--font-size-lg); color: var(--color-text);">
-                <strong>Java Full-Stack Developer</strong> | Spring Boot Enthusiast | Problem Solver
-            </p>
-        </div>
+    <div class="container">
+        <h1>🌐 Personal Portfolio Website</h1>
 
-        <div class="stats">
-            <div class="stat-item">
-                <strong style="color: var(--color-primary);">🎓 B.Tech CSE</strong>
-                <div style="font-size: var(--font-size-sm);">2024 Graduate</div>
-            </div>
-            <div class="stat-item">
-                <strong style="color: var(--color-primary);">💼 Open to Work</strong>
-                <div style="font-size: var(--font-size-sm);">Java Developer</div>
-            </div>
-            <div class="stat-item">
-                <strong style="color: var(--color-primary);">📍 Location</strong>
-                <div style="font-size: var(--font-size-sm);">India</div>
-            </div>
-        </div>
+        <p>A modern, responsive portfolio website showcasing my skills, projects, and experience as a Java Full-Stack Developer. Built with Bootstrap 5 and custom CSS featuring glassmorphism design elements.</p>
 
-        <h2>🚀 About Me</h2>
         <p>
-            Motivated Java Full-Stack Developer with strong knowledge of Java, Spring Boot, REST APIs, SQL, HTML, CSS, and JavaScript. 
-            I build reliable backend systems and enjoy solving problems with clean code. Currently exploring object detection using 
-            convolutional neural networks and building full-stack e-commerce applications with Spring &amp; MySQL.
-        </p>
-        <p>
-            I'm passionate about problem-solving, debugging, and delivering high-quality software. Always eager to learn new technologies 
-            and best practices in software development.
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3">
+            <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap">
+            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
         </p>
 
-        <h2>💻 Technical Skills</h2>
-        <div class="skills">
-            <span class="skill-badge">Java</span>
-            <span class="skill-badge">JDBC</span>
-            <span class="skill-badge">Hibernate</span>
-            <span class="skill-badge">Spring Boot</span>
-            <span class="skill-badge">REST APIs</span>
-            <span class="skill-badge">SQL</span>
-            <span class="skill-badge">MySQL</span>
-            <span class="skill-badge">Git</span>
-            <span class="skill-badge">HTML</span>
-            <span class="skill-badge">CSS</span>
-            <span class="skill-badge">JavaScript</span>
-            <span class="skill-badge">React</span>
-            <span class="skill-badge">Python</span>
-            <span class="skill-badge">TensorFlow</span>
-            <span class="skill-badge">OpenCV</span>
-        </div>
+        <h2>✨ Features</h2>
 
-        <h2>🔥 Featured Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>🛒 E-commerce Web Application</h3>
-                <p>
-                    Full-stack e-commerce application built with Spring Boot for backend, MySQL for persistence, 
-                    and JSP/HTML for the frontend. Implemented product management, user authentication, and order 
-                    processing flows with secure REST APIs.
-                </p>
-                <p class="tech-stack">
-                    <strong>Tech Stack:</strong> Java, Spring Boot, MySQL, JSP/Servlets, REST APIs
-                </p>
-            </div>
+        <ul>
+            <li><strong>Responsive Design</strong> - Fully optimized for desktop, tablet, and mobile devices</li>
+            <li><strong>Glassmorphism UI</strong> - Modern design with frosted glass effects and smooth animations</li>
+            <li><strong>Smooth Navigation</strong> - Single-page application with smooth scrolling to sections</li>
+            <li><strong>Project Showcase</strong> - Dedicated section highlighting key projects with hover effects</li>
+            <li><strong>Skills Display</strong> - Interactive skill badges with hover animations</li>
+            <li><strong>Contact Form</strong> - Integrated contact form for easy communication</li>
+            <li><strong>Clean Code</strong> - Well-structured HTML with semantic elements and organized CSS</li>
+        </ul>
 
-            <div class="project-card">
-                <h3>🤖 Object Detection using CNN</h3>
-                <p>
-                    Designed and trained convolutional neural networks to detect and localize objects in images. 
-                    Implemented data preprocessing pipelines, model training, and evaluation. Explored transfer 
-                    learning techniques for improved accuracy and performance.
-                </p>
-                <p class="tech-stack">
-                    <strong>Tech Stack:</strong> Python, TensorFlow/PyTorch, OpenCV, NumPy
-                </p>
-            </div>
-        </div>
+        <h2>🚀 Demo</h2>
 
-        <h2>📊 GitHub Stats</h2>
-        <div class="code-block">
-// Continuously learning and building
-const developer = {
-  name: "Venkatesh Jaggaraju",
-  role: "Java Full-Stack Developer",
-  technologies: ["Java", "Spring Boot", "React", "SQL"],
-  currentFocus: ["REST APIs", "Microservices", "Deep Learning"],
-  lookingFor: "Entry-level Java Development opportunities"
-};
-        </div>
+        <p><strong>Live Demo:</strong> <a href="https://yourusername.github.io/portfolio">https://yourusername.github.io/portfolio</a></p>
 
-        <h2>📫 Get in Touch</h2>
-        <div class="contact-section">
-            <p style="margin-bottom: var(--space-12);">
-                I'm actively seeking opportunities in Java development. Feel free to reach out for collaboration, 
-                opportunities, or just to connect!
-            </p>
-            <div class="contact-links">
-                <a href="mailto:venkateshjaggaraju2002@gmail.com" class="contact-link">
-                    📧 venkateshjaggaraju2002@gmail.com
-                </a>
-                <a href="tel:+919618348231" class="contact-link">
-                    📱 +91 96183 48231
-                </a>
-            </div>
-        </div>
+        <h2>📸 Screenshots</h2>
 
-        <div style="text-align: center; margin-top: var(--space-32); padding-top: var(--space-20); border-top: 1px solid var(--color-border);">
-            <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm);">
-                ⭐ Feel free to star my repositories if you find them useful!<br>
-                💬 Open to feedback and collaboration opportunities
-            </p>
-        </div>
+        <blockquote>
+            <p><em>Add screenshots of your portfolio here after deployment</em></p>
+        </blockquote>
+
+        <pre><code>![Hero Section](./screenshots/hero.png)
+![Projects Section](./screenshots/projects.png)
+![Contact Section](./screenshots/contact.png)</code></pre>
+
+        <h2>🛠️ Built With</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>HTML5</strong></td>
+                    <td>Semantic markup and structure</td>
+                </tr>
+                <tr>
+                    <td><strong>CSS3</strong></td>
+                    <td>Custom styling, animations, and glassmorphism effects</td>
+                </tr>
+                <tr>
+                    <td><strong>Bootstrap 5</strong></td>
+                    <td>Responsive grid system and components</td>
+                </tr>
+                <tr>
+                    <td><strong>JavaScript</strong></td>
+                    <td>Interactive navigation and smooth scrolling</td>
+                </tr>
+                <tr>
+                    <td><strong>Google Fonts</strong></td>
+                    <td>Poppins font family for modern typography</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>📂 Project Structure</h2>
+
+        <pre><code>portfolio/
+│
+├── index.html              # Main HTML file
+├── RelativePathImages/     # Image assets directory
+│   └── photo.jpg          # Profile photo
+├── screenshots/            # Screenshots for README
+│   ├── hero.png
+│   ├── projects.png
+│   └── contact.png
+└── README.md              # Project documentation</code></pre>
+
+        <h2>🎨 Design Features</h2>
+
+        <h3>Color Scheme</h3>
+        <ul>
+            <li><strong>Background:</strong> Light neutral tones (#f9fafc)</li>
+            <li><strong>Accent:</strong> Soft blue (#eaf3ff)</li>
+            <li><strong>Primary:</strong> Bootstrap blue (#007bff)</li>
+            <li><strong>Glass Effect:</strong> Frosted white with backdrop blur</li>
+        </ul>
+
+        <h3>Key Design Elements</h3>
+        <ul>
+            <li><strong>Glassmorphism:</strong> Backdrop blur effects on cards and navbar</li>
+            <li><strong>Smooth Transitions:</strong> Hover animations on all interactive elements</li>
+            <li><strong>Modern Typography:</strong> Poppins font with proper hierarchy</li>
+            <li><strong>Shadow Depth:</strong> Layered shadows for depth perception</li>
+        </ul>
+
+        <h2>🚀 Getting Started</h2>
+
+        <h3>Prerequisites</h3>
+        <ul>
+            <li>A modern web browser (Chrome, Firefox, Safari, Edge)</li>
+            <li>Text editor (VS Code, Sublime Text, etc.) for customization</li>
+        </ul>
+
+        <h3>Installation</h3>
+
+        <p><strong>1. Clone the repository</strong></p>
+        <pre><code>git clone https://github.com/yourusername/portfolio.git
+cd portfolio</code></pre>
+
+        <p><strong>2. Add your profile photo</strong></p>
+        <pre><code>mkdir -p RelativePathImages
+# Add your photo.jpg to the RelativePathImages folder</code></pre>
+
+        <p><strong>3. Open in browser</strong></p>
+        <pre><code># Simply open index.html in your browser
+# Or use a local server:
+python -m http.server 8000
+# Visit http://localhost:8000</code></pre>
+
+        <h2>⚙️ Customization Guide</h2>
+
+        <h3>1. Personal Information</h3>
+        <p>Edit the following sections in <code>index.html</code>:</p>
+
+        <pre><code>&lt;!-- Update name --&gt;
+&lt;h1 class="display-6 fw-semibold"&gt;Your Name&lt;/h1&gt;
+
+&lt;!-- Update tagline --&gt;
+&lt;p class="lead text-muted"&gt;Your Role | Your Skills&lt;/p&gt;
+
+&lt;!-- Update contact details --&gt;
+&lt;a href="tel:+91XXXXXXXXXX"&gt;+91 XXXXX XXXXX&lt;/a&gt;
+&lt;a href="mailto:your.email@gmail.com"&gt;your.email@gmail.com&lt;/a&gt;</code></pre>
+
+        <h3>2. Skills Section</h3>
+        <p>Add or remove skill badges:</p>
+
+        <pre><code>&lt;span class="badge bg-light text-dark skill-badge"&gt;Your Skill&lt;/span&gt;</code></pre>
+
+        <h3>3. Projects Section</h3>
+        <p>Duplicate the card structure for additional projects:</p>
+
+        <pre><code>&lt;div class="col-md-6"&gt;
+  &lt;div class="card card-project h-100"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;h5 class="card-title"&gt;Project Name&lt;/h5&gt;
+      &lt;p class="card-text"&gt;Description...&lt;/p&gt;
+      &lt;p class="mb-0"&gt;&lt;strong&gt;Tech:&lt;/strong&gt; Technologies&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+        <h3>4. Color Customization</h3>
+        <p>Modify CSS variables in the <code>&lt;style&gt;</code> section:</p>
+
+        <pre><code>:root {
+  --bg-light: #f9fafc;      /* Main background */
+  --bg-accent: #eaf3ff;     /* Accent background */
+  --text-main: #1a1a1a;     /* Primary text */
+  --primary: #007bff;       /* Primary color */
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --radius: 18px;           /* Border radius */
+}</code></pre>
+
+        <h2>📱 Responsive Breakpoints</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Device</th>
+                    <th>Breakpoint</th>
+                    <th>Behavior</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mobile</td>
+                    <td>&lt; 768px</td>
+                    <td>Stacked layout, smaller profile image</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>768px - 991px</td>
+                    <td>Two-column layout for projects</td>
+                </tr>
+                <tr>
+                    <td>Desktop</td>
+                    <td>&gt; 992px</td>
+                    <td>Full multi-column layout with animations</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>🌐 Deployment</h2>
+
+        <h3>GitHub Pages (Recommended)</h3>
+
+        <p><strong>1. Push your code to GitHub</strong></p>
+        <pre><code>git add .
+git commit -m "Initial portfolio commit"
+git push origin main</code></pre>
+
+        <p><strong>2. Enable GitHub Pages</strong></p>
+        <ul>
+            <li>Go to your repository settings</li>
+            <li>Navigate to "Pages" section</li>
+            <li>Select "main" branch as source</li>
+            <li>Click "Save"</li>
+        </ul>
+
+        <p><strong>3. Access your site</strong></p>
+        <pre><code>https://yourusername.github.io/portfolio</code></pre>
+
+        <h3>Alternative Deployment Options</h3>
+
+        <ul>
+            <li><strong>Netlify:</strong> Drag and drop the folder to <a href="https://app.netlify.com/drop">Netlify Drop</a></li>
+            <li><strong>Vercel:</strong> Import repository via <a href="https://vercel.com/">Vercel dashboard</a></li>
+            <li><strong>Firebase Hosting:</strong> Use Firebase CLI to deploy</li>
+        </ul>
+
+        <h2>📝 To-Do / Future Enhancements</h2>
+
+        <ul>
+            <li>[ ] Add dark mode toggle</li>
+            <li>[ ] Integrate blog section</li>
+            <li>[ ] Add project detail pages</li>
+            <li>[ ] Implement working contact form backend</li>
+            <li>[ ] Add GitHub contribution graph</li>
+            <li>[ ] Include testimonials section</li>
+            <li>[ ] Add animations on scroll (AOS library)</li>
+            <li>[ ] SEO optimization with meta tags</li>
+            <li>[ ] Add resume download button</li>
+        </ul>
+
+        <h2>🐛 Known Issues</h2>
+
+        <ul>
+            <li>Contact form uses <code>mailto:</code> which may not work on all email clients - consider integrating FormSubmit, Formspree, or a backend solution</li>
+            <li>Profile image path is relative - ensure proper folder structure</li>
+        </ul>
+
+        <h2>🤝 Contributing</h2>
+
+        <p>Contributions, issues, and feature requests are welcome! Feel free to check the <a href="https://github.com/yourusername/portfolio/issues">issues page</a>.</p>
+
+        <p><strong>To contribute:</strong></p>
+        <ol>
+            <li>Fork the project</li>
+            <li>Create your feature branch (<code>git checkout -b feature/AmazingFeature</code>)</li>
+            <li>Commit your changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
+            <li>Push to the branch (<code>git push origin feature/AmazingFeature</code>)</li>
+            <li>Open a Pull Request</li>
+        </ol>
+
+        <h2>📄 License</h2>
+
+        <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+        <h2>👤 Author</h2>
+
+        <p><strong>Venkatesh Jaggaraju</strong></p>
+
+        <ul>
+            <li>Email: <a href="mailto:venkateshjaggaraju2002@gmail.com">venkateshjaggaraju2002@gmail.com</a></li>
+            <li>Phone: <a href="tel:+919618348231">+91 96183 48231</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername">@yourusername</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your Profile</a></li>
+        </ul>
+
+        <h2>⭐ Show Your Support</h2>
+
+        <p>Give a ⭐️ if you like this project and find it helpful!</p>
+
+        <hr>
+
+        <p style="text-align: center; color: var(--color-text-muted); margin-top: 2em;">
+            Made with ❤️ by Venkatesh Jaggaraju
+        </p>
     </div>
 </body>
 </html>
