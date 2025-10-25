@@ -53,12 +53,13 @@ I love solving real-world problems through efficient and scalable web applicatio
 
 ---
 
-### 🧾 Portfolio Website
+<!--### 🧾 Portfolio Website
 - Designed this responsive personal portfolio to showcase my skills, projects, and achievements.  
 - Integrated smooth animations, glass-morphism effects, and a contact form using **mailto**.  
 - **Tech Stack:** HTML, CSS, Bootstrap 5  
 
 ---
+-->
 
 ## 📊 GitHub Stats
 
