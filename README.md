@@ -1,25 +1,28 @@
-# 💻 Venkatesh Jaggaraju — Full Stack Developer 
+# 💻 Venkatesh Jaggaraju — Full Stack Developer (Fresher)
 
-Welcome to my **personal portfolio website** — a showcase of my projects, technical skills, and achievements as a **Java Full Stack Developer**.  
-Built using **HTML, CSS, Bootstrap 5**, and integrated with a clean responsive UI.
+Welcome to my **personal portfolio** — a reflection of my journey, skills, and projects as a **Java Full Stack Developer (Fresher)**.  
+I’m passionate about **building efficient web applications**, learning new technologies, and writing clean, maintainable code.  
+
+Built using **HTML, CSS, Bootstrap 5**, and integrated with a fully responsive design.
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Portfolio
 
-👉 **[View Live Portfolio](https://yourusername.github.io/portfolio/)**  
+👉 **[View My Portfolio](https://yourusername.github.io/portfolio/)**  
 *(Replace with your actual GitHub Pages or hosted link)*
 
 ---
 
 ## 👨‍💻 About Me
 
-I’m **Venkatesh Jaggaraju**, a passionate **Full Stack Developer** skilled in **Java, Spring Boot, MySQL, HTML, CSS, and JavaScript**.  
-I love solving real-world problems through efficient and scalable web applications.  
+Hello! I’m **Venkatesh Jaggaraju**, a highly motivated **Full Stack Developer (Fresher)** skilled in **Java, Spring Boot, MySQL, HTML, CSS, and JavaScript**.  
+I enjoy learning emerging technologies and developing creative software solutions.
 
-🔹 I focus on **backend development** and **RESTful API design**.  
-🔹 I also explore **AI/ML**, especially **Object Detection using CNN**.  
-🔹 I enjoy creating user-friendly interfaces and clean, maintainable codebases.
+🔹 Strong interest in **Backend Development** using Java & Spring Boot  
+🔹 Hands-on with **RESTful APIs**, database integration, and UI development  
+🔹 Passionate about **problem-solving**, **AI/ML**, and **Object Detection using CNN**  
+🔹 Always open to learning, collaboration, and real-world project experience  
 
 ---
 
@@ -27,10 +30,10 @@ I love solving real-world problems through efficient and scalable web applicatio
 
 | Category | Technologies |
 |-----------|--------------|
-| **Frontend** | HTML5, CSS3, JavaScript |
+| **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript |
 | **Backend** | Java, Hibernate, JDBC, Spring, Spring Boot, JSP/Servlets |
 | **Database** | MySQL, Oracle |
-| **Version Control & Tools** | Git, GitHub, REST APIs, Postman |
+| **Version Control & Tools** | Git, GitHub, Postman, REST APIs |
 | **Other Skills** | JSON, OOPs, Debugging, Problem Solving |
 
 ---
@@ -38,35 +41,33 @@ I love solving real-world problems through efficient and scalable web applicatio
 ## 💼 Projects
 
 ### 🧠 Object Detection using CNN
-- Implemented **Convolutional Neural Networks (CNN)** to detect and classify objects from images.  
+- Implemented **Convolutional Neural Networks (CNN)** for detecting and classifying objects in images.  
 - Used **OpenCV** for data preprocessing and **TensorFlow/PyTorch** for model training.  
-- Integrated model evaluation and transfer learning for improved accuracy.  
+- Enhanced model accuracy through transfer learning and hyperparameter tuning.  
 - **Tech Stack:** Python, TensorFlow, OpenCV  
 
 ---
 
 ### 🛒 E-Commerce Web Application
-- Full-stack web application for product management and order processing.  
-- Backend developed using **Spring Boot + MySQL**, frontend with **JSP, HTML, and CSS**.  
-- Includes authentication, product listing, and shopping cart features.  
-- **Tech Stack:** Java, Spring Boot, MySQL, JSP/Servlets  
+- Developed a full-stack e-commerce platform with authentication, product management, and order tracking.  
+- Backend: **Spring Boot + MySQL**, Frontend: **JSP, HTML, CSS**.  
+- Implemented **CRUD operations**, REST APIs, and a responsive UI.  
+- **Tech Stack:** Java, Spring Boot, JSP/Servlets, MySQL  
 
 ---
 
-<!--### 🧾 Portfolio Website
-- Designed this responsive personal portfolio to showcase my skills, projects, and achievements.  
-- Integrated smooth animations, glass-morphism effects, and a contact form using **mailto**.  
+### 🧾 Portfolio Website
+- Designed a fully responsive portfolio showcasing my technical skills and projects.  
+- Built using **HTML, CSS, and Bootstrap 5** with animations and glassmorphism effects.  
+- Integrated with a working contact section via mailto form.  
 - **Tech Stack:** HTML, CSS, Bootstrap 5  
 
 ---
--->
 
 ## 📊 GitHub Stats
 
-![Venkatesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight)
-
-*(Replace `yourusername` with your actual GitHub username)*
+![Venkatesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true&theme=tokyonight)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VenkateshJaggaraju&layout=compact&theme=tokyonight)
 
 ---
 
@@ -85,10 +86,9 @@ I love solving real-world problems through efficient and scalable web applicatio
   <a href="https://facebook.com/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"/>
   </a>
-<!--  <a href="https://github.com/VenkateshJaggaraju/VenkateshJaggaraju/" target="_blank">
+  <a href="https://github.com/VenkateshJaggaraju" target="_blank">
     <img src="https://img.icons8.com/fluency/48/fa2a55/github.png" alt="GitHub" style="filter: hue-rotate(310deg);"/>
   </a>
-  -->
 </p>
 
 ---
@@ -100,4 +100,5 @@ I love solving real-world problems through efficient and scalable web applicatio
 
 ---
 
-
+⭐ *"Building ideas into impactful applications through code."*  
+— *Venkatesh Jaggaraju*
