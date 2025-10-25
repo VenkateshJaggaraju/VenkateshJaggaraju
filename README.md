@@ -7,8 +7,8 @@ Built using **HTML, CSS, Bootstrap 5**, and integrated with a clean responsive U
 
 ## 🚀 Live Demo
 
-👉 **[View Live Portfolio](https://venkateshjaggaraju.github.io/portfolio/)**  
-*(Hosted using GitHub Pages)*
+👉 **[View Live Portfolio](https://yourusername.github.io/portfolio/)**  
+*(Replace with your actual GitHub Pages or hosted link)*
 
 ---
 
@@ -62,17 +62,16 @@ I love solving real-world problems through efficient and scalable web applicatio
 
 ## 📊 GitHub Stats
 
-![Venkatesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=venkateshjaggaraju&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=venkateshjaggaraju&layout=compact&theme=tokyonight)
+![Venkatesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight)
+
+*(Replace `yourusername` with your actual GitHub username)*
 
 ---
 
 ## 🌍 Connect with Me
 
 <p align="center">
-  <a href="https://github.com/venkateshjaggaraju" target="_blank">
-    <img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="GitHub"/>
-  </a>
   <a href="https://www.linkedin.com/in/venkatesh-jaggaraju-648281259/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/>
   </a>
@@ -85,6 +84,9 @@ I love solving real-world problems through efficient and scalable web applicatio
   <a href="https://facebook.com/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"/>
   </a>
+  <a href="https://github.com/yourusername" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/fa2a55/github.png" alt="GitHub" style="filter: hue-rotate(310deg);"/>
+  </a>
 </p>
 
 ---
@@ -92,9 +94,12 @@ I love solving real-world problems through efficient and scalable web applicatio
 ## 📫 Contact
 
 📧 **Email:** [venkateshjaggaraju2002@gmail.com](mailto:venkateshjaggaraju2002@gmail.com)  
-📱 **Phone:** [+91 96183 48231](tel:+919618348231)  
-💻 **GitHub:** [github.com/venkateshjaggaraju](https://github.com/venkateshjaggaraju)
+📱 **Phone:** [+91 96183 48231](tel:+919618348231)
 
 ---
 
+## ⚙️ Run Locally
 
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
