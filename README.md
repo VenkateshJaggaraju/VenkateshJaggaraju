@@ -1,4 +1,4 @@
-# 💻 Venkatesh Jaggaraju
+# 💻 Venkatesh Jaggaraju — Full Stack Developer 
 
 Welcome to my **personal portfolio website** built using **HTML, CSS, Bootstrap, Java, and Spring Boot**.  
 It showcases my **projects, technical skills, and experience** as a **Java Full Stack Developer** passionate about building end-to-end web applications and intelligent systems.
