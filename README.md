@@ -1,4 +1,4 @@
-# 🌐 Venkatesh Jaggaraju — Portfolio Website
+# 🌐 Venkatesh Jaggaraju 
 
 This is my personal **portfolio website** built using **HTML, CSS, and Bootstrap 5**, showcasing my skills, projects, and contact details.  
 It reflects my passion for **Java Full Stack Development**, **Spring Boot**, and **RESTful Web Applications**.
@@ -23,10 +23,10 @@ Currently exploring **Object Detection using CNN** and **E-commerce applications
 
 | Category | Technologies |
 |-----------|--------------|
-| **Frontend** | HTML5, CSS3, Bootstrap 5 |
-| **Backend** | Java, Spring Boot, JSP/Servlets |
-| **Database** | MySQL |
-| **Tools** | Git, RESTful APIs, Postman, JSON |
+| **Frontend** | HTML5, CSS3 |
+| **Backend** | Java, Spring Boot, Servlets, REST API |
+| **Database** | MySQL, Oracle |
+| **Tools** | Git, RESTful APIs, Postman, VS code |
 
 ---
 
