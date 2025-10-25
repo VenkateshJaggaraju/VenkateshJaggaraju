@@ -1,22 +1,25 @@
 # 💻 Venkatesh Jaggaraju — Full Stack Developer 
 
-Welcome to my **personal portfolio website** built using **HTML, CSS, Bootstrap, Java, and Spring Boot**.  
-It showcases my **projects, technical skills, and experience** as a **Java Full Stack Developer** passionate about building end-to-end web applications and intelligent systems.
+Welcome to my **personal portfolio website** — a showcase of my projects, technical skills, and achievements as a **Java Full Stack Developer**.  
+Built using **HTML, CSS, Bootstrap 5**, and integrated with a clean responsive UI.
 
 ---
 
-## 🚀 Live Portfolio
+## 🚀 Live Demo
 
-👉 **[View Live Website](https://yourusername.github.io/portfolio/)**  
-*(Replace with your actual GitHub Pages link once deployed)*
+👉 **[View Live Portfolio](https://yourusername.github.io/portfolio/)**  
+*(Replace with your actual GitHub Pages or hosted link)*
 
 ---
 
 ## 👨‍💻 About Me
 
-I’m **Venkatesh Jaggaraju**, a dedicated **Java Full Stack Developer** with a strong foundation in **backend development**, **RESTful APIs**, and **SQL databases**.  
-I love solving complex problems, designing scalable systems, and crafting intuitive user interfaces.  
-Currently exploring **Object Detection using CNNs** and building **E-commerce platforms using Spring Boot and MySQL**.
+I’m **Venkatesh Jaggaraju**, a passionate **Full Stack Developer** skilled in **Java, Spring Boot, MySQL, HTML, CSS, and JavaScript**.  
+I love solving real-world problems through efficient and scalable web applications.  
+
+🔹 I focus on **backend development** and **RESTful API design**.  
+🔹 I also explore **AI/ML**, especially **Object Detection using CNN**.  
+🔹 I enjoy creating user-friendly interfaces and clean, maintainable codebases.
 
 ---
 
@@ -24,63 +27,76 @@ Currently exploring **Object Detection using CNNs** and building **E-commerce pl
 
 | Category | Technologies |
 |-----------|--------------|
-| **Frontend** | HTML5, CSS3, JavaScript, Bootstrap 5 |
+| **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript |
 | **Backend** | Java, Spring Boot, JSP/Servlets |
 | **Database** | MySQL |
-| **Tools & Version Control** | Git, GitHub, Postman, VS Code, IntelliJ IDEA |
-| **Other Skills** | REST APIs, JSON, Responsive Design, MVC Architecture |
+| **Version Control & Tools** | Git, GitHub, REST APIs, Postman |
+| **Other Skills** | JSON, OOPs, Debugging, Problem Solving |
 
 ---
 
 ## 💼 Projects
 
-### 🛒 E-Commerce Web Application
-- Developed a full-stack e-commerce platform using **Spring Boot** and **MySQL**.
-- Implemented features like product CRUD operations, authentication, and order management.
-- Frontend built using JSP, HTML, CSS, and Bootstrap for a responsive experience.
-- **Tech Used:** Java, Spring Boot, JSP/Servlets, MySQL, HTML, CSS
-
----
-
 ### 🧠 Object Detection using CNN
-- Designed and trained **Convolutional Neural Networks (CNN)** to detect and classify objects.
-- Used **TensorFlow / PyTorch** for model training and **OpenCV** for real-time image processing.
-- Implemented data preprocessing, transfer learning, and model evaluation for high accuracy.
-- **Tech Used:** Python, TensorFlow, Keras, OpenCV, NumPy
+- Implemented **Convolutional Neural Networks (CNN)** to detect and classify objects from images.  
+- Used **OpenCV** for data preprocessing and **TensorFlow/PyTorch** for model training.  
+- Integrated model evaluation and transfer learning for improved accuracy.  
+- **Tech Stack:** Python, TensorFlow, OpenCV  
 
 ---
 
-### 🌐 Portfolio Website (This Project)
-- Fully responsive personal portfolio website built using **HTML, CSS, and Bootstrap**.
-- Includes about section, projects, skills, and contact form integrated with mailto functionality.
-- Deployed on **GitHub Pages** for live viewing.
-- **Tech Used:** HTML, CSS, Bootstrap, JavaScript
+### 🛒 E-Commerce Web Application
+- Full-stack web application for product management and order processing.  
+- Backend developed using **Spring Boot + MySQL**, frontend with **JSP, HTML, and CSS**.  
+- Includes authentication, product listing, and shopping cart features.  
+- **Tech Stack:** Java, Spring Boot, MySQL, JSP/Servlets  
 
 ---
 
-## 📊 GitHub Stats & Analytics
+### 🧾 Portfolio Website
+- Designed this responsive personal portfolio to showcase my skills, projects, and achievements.  
+- Integrated smooth animations, glass-morphism effects, and a contact form using **mailto**.  
+- **Tech Stack:** HTML, CSS, Bootstrap 5  
+
+---
+
+## 📊 GitHub Stats
+
+![Venkatesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight)
+
+*(Replace `yourusername` with your actual GitHub username)*
+
+---
+
+## 🌍 Connect with Me
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" alt="Venkatesh's GitHub stats" width="49%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="GitHub streak" width="49%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical" width="49%">
+  <a href="https://www.linkedin.com/in/venkatesh-jaggaraju/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.instagram.com/" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram"/>
+  </a>
+  <a href="https://wa.me/919618348231" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"/>
+  </a>
+  <a href="https://facebook.com/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"/>
+  </a>
 </p>
 
 ---
 
-## ✨ Features
+## 📫 Contact
 
-✅ Fully responsive and modern UI design  
-✅ Smooth navigation and glass-morphism styling  
-✅ Interactive skill badges and project cards  
-✅ Mailto contact form integration  
-✅ SEO-friendly and fast-loading  
-✅ Deployed easily using GitHub Pages  
+📧 **Email:** [venkateshjaggaraju2002@gmail.com](mailto:venkateshjaggaraju2002@gmail.com)  
+📱 **Phone:** [+91 96183 48231](tel:+919618348231)
 
 ---
 
-## 📂 Folder Structure
+## ⚙️ Run Locally
 
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
