@@ -27,9 +27,9 @@ I love solving real-world problems through efficient and scalable web applicatio
 
 | Category | Technologies |
 |-----------|--------------|
-| **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript |
+| **Frontend** | HTML5, CSS3, JavaScript |
 | **Backend** | Java, Hibernate, JDBC, Spring, Spring Boot, JSP/Servlets |
-| **Database** | MySQL |
+| **Database** | MySQL, Oracle |
 | **Version Control & Tools** | Git, GitHub, REST APIs, Postman |
 | **Other Skills** | JSON, OOPs, Debugging, Problem Solving |
 
