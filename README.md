@@ -84,9 +84,10 @@ I love solving real-world problems through efficient and scalable web applicatio
   <a href="https://facebook.com/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"/>
   </a>
-  <a href="https://github.com/VenkateshJaggaraju/VenkateshJaggaraju/" target="_blank">
+<!--  <a href="https://github.com/VenkateshJaggaraju/VenkateshJaggaraju/" target="_blank">
     <img src="https://img.icons8.com/fluency/48/fa2a55/github.png" alt="GitHub" style="filter: hue-rotate(310deg);"/>
   </a>
+  -->
 </p>
 
 ---
