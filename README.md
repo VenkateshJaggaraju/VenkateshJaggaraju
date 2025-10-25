@@ -95,8 +95,4 @@ I love solving real-world problems through efficient and scalable web applicatio
 
 ---
 
-## ⚙️ Run Locally
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
