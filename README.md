@@ -1,11 +1,11 @@
 # 👋 Hi, I'm Venkatesh Jaggaraju  
-### 💻 Full Stack Developer | Java | Spring Boot | MySQL
+### 💻 Full Stack Developer | Java | JDBC | Hibernate | Spring Boot | REST API | HTML | CSS | Javascript | SQL | 
 
 ---
 
 ![Header](https://github.com/VenkateshJaggaraju/VenkateshJaggaraju/blob/main/banner.png)
 
-🔹 **Fresher Full Stack Developer** with strong skills in **Java, Spring Boot, MySQL, HTML, CSS, JavaScript**  
+🔹 **Fresher Full Stack Developer** with strong skills in **Java, Spring Boot, SQL, HTML, CSS, JavaScript**  
 🔹 Passionate about **building scalable web apps**, **REST APIs**, and **AI/ML-based projects**  
 🔹 Focused on writing **clean, efficient, and maintainable code**  
 
@@ -31,7 +31,7 @@
 | **Backend** | Java, Spring Boot, Hibernate, JDBC, JSP/Servlets |
 | **Database** | MySQL, Oracle |
 | **Version Control** | Git, GitHub |
-| **Tools** | Postman, REST APIs |
+| **Tools** | Postman, VS code, Eclipse, Anaconda Navigator |
 | **Others** | JSON, OOPs, Problem Solving |
 
 ---
@@ -48,7 +48,7 @@ Improved accuracy via **transfer learning** and **data augmentation**.
 ### 🛒 [E-Commerce Web Application](https://github.com/VenkateshJaggaraju/Ecommerce-WebApp)
 Developed a **full-stack web app** for online shopping with CRUD operations and REST APIs.  
 Frontend built with **JSP, HTML, CSS**, and backend with **Spring Boot + MySQL**.  
-**Tech Stack:** Java, Spring Boot, MySQL, JSP  
+**Tech Stack:** Java, Spring Boot, MySQL, HTML, CSS  
 
 ---
 
