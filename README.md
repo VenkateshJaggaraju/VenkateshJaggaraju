@@ -1,28 +1,25 @@
-# 💻 Venkatesh Jaggaraju — Full Stack Developer (Fresher)
-
-Welcome to my **personal portfolio** — a reflection of my journey, skills, and projects as a **Java Full Stack Developer (Fresher)**.  
-I’m passionate about **building efficient web applications**, learning new technologies, and writing clean, maintainable code.  
-
-Built using **HTML, CSS, Bootstrap 5**, and integrated with a fully responsive design.
+# 👋 Hi, I'm Venkatesh Jaggaraju  
+### 💻 Full Stack Developer | Java | Spring Boot | MySQL
 
 ---
 
-## 🚀 Live Portfolio
+![Header](https://github.com/VenkateshJaggaraju/VenkateshJaggaraju/blob/main/banner.png)
 
-👉 **[View My Portfolio](https://yourusername.github.io/portfolio/)**  
-*(Replace with your actual GitHub Pages or hosted link)*
+🔹 **Fresher Full Stack Developer** with strong skills in **Java, Spring Boot, MySQL, HTML, CSS, JavaScript**  
+🔹 Passionate about **building scalable web apps**, **REST APIs**, and **AI/ML-based projects**  
+🔹 Focused on writing **clean, efficient, and maintainable code**  
+
+🌱 Currently exploring **advanced Spring Boot features** and **Microservices architecture**.  
+💬 Ask me about **Java, Spring Boot, Hibernate, MySQL, JSP/Servlets, RESTful APIs**
 
 ---
 
-## 👨‍💻 About Me
+## 🔗 Connect with Me
 
-Hello! I’m **Venkatesh Jaggaraju**, a highly motivated **Full Stack Developer (Fresher)** skilled in **Java, Spring Boot, MySQL, HTML, CSS, and JavaScript**.  
-I enjoy learning emerging technologies and developing creative software solutions.
-
-🔹 Strong interest in **Backend Development** using Java & Spring Boot  
-🔹 Hands-on with **RESTful APIs**, database integration, and UI development  
-🔹 Passionate about **problem-solving**, **AI/ML**, and **Object Detection using CNN**  
-🔹 Always open to learning, collaboration, and real-world project experience  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-venkatesh--jaggaraju-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/venkatesh-jaggaraju-648281259/)  
+[![GitHub](https://img.shields.io/badge/GitHub-VenkateshJaggaraju-black?style=flat&logo=github)](https://github.com/VenkateshJaggaraju)  
+[![Email](https://img.shields.io/badge/Email-venkateshjaggaraju2002%40gmail.com-red?style=flat&logo=gmail)](mailto:venkateshjaggaraju2002@gmail.com)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Now-green?style=flat&logo=vercel)](https://yourusername.github.io/portfolio/)  
 
 ---
 
@@ -31,36 +28,33 @@ I enjoy learning emerging technologies and developing creative software solution
 | Category | Technologies |
 |-----------|--------------|
 | **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript |
-| **Backend** | Java, Hibernate, JDBC, Spring, Spring Boot, JSP/Servlets |
+| **Backend** | Java, Spring Boot, Hibernate, JDBC, JSP/Servlets |
 | **Database** | MySQL, Oracle |
-| **Version Control & Tools** | Git, GitHub, Postman, REST APIs |
-| **Other Skills** | JSON, OOPs, Debugging, Problem Solving |
+| **Version Control** | Git, GitHub |
+| **Tools** | Postman, REST APIs |
+| **Others** | JSON, OOPs, Problem Solving |
 
 ---
 
-## 💼 Projects
+## 💼 Featured Projects
 
-### 🧠 Object Detection using CNN
-- Implemented **Convolutional Neural Networks (CNN)** for detecting and classifying objects in images.  
-- Used **OpenCV** for data preprocessing and **TensorFlow/PyTorch** for model training.  
-- Enhanced model accuracy through transfer learning and hyperparameter tuning.  
-- **Tech Stack:** Python, TensorFlow, OpenCV  
-
----
-
-### 🛒 E-Commerce Web Application
-- Developed a full-stack e-commerce platform with authentication, product management, and order tracking.  
-- Backend: **Spring Boot + MySQL**, Frontend: **JSP, HTML, CSS**.  
-- Implemented **CRUD operations**, REST APIs, and a responsive UI.  
-- **Tech Stack:** Java, Spring Boot, JSP/Servlets, MySQL  
+### 🧠 [Object Detection using CNN](https://github.com/VenkateshJaggaraju/Object-Detection-CNN)
+Implemented a **Convolutional Neural Network** for object detection using **OpenCV** and **TensorFlow**.  
+Improved accuracy via **transfer learning** and **data augmentation**.  
+**Tech Stack:** Python, TensorFlow, OpenCV  
 
 ---
 
-### 🧾 Portfolio Website
-- Designed a fully responsive portfolio showcasing my technical skills and projects.  
-- Built using **HTML, CSS, and Bootstrap 5** with animations and glassmorphism effects.  
-- Integrated with a working contact section via mailto form.  
-- **Tech Stack:** HTML, CSS, Bootstrap 5  
+### 🛒 [E-Commerce Web Application](https://github.com/VenkateshJaggaraju/Ecommerce-WebApp)
+Developed a **full-stack web app** for online shopping with CRUD operations and REST APIs.  
+Frontend built with **JSP, HTML, CSS**, and backend with **Spring Boot + MySQL**.  
+**Tech Stack:** Java, Spring Boot, MySQL, JSP  
+
+---
+
+### 🌐 [Portfolio Website](https://yourusername.github.io/portfolio/)
+Created a **responsive portfolio** using HTML, CSS, and Bootstrap 5 with animations and modern design.  
+**Tech Stack:** HTML, CSS, Bootstrap  
 
 ---
 
@@ -71,34 +65,18 @@ I enjoy learning emerging technologies and developing creative software solution
 
 ---
 
-## 🌍 Connect with Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/venkatesh-jaggaraju-648281259/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.instagram.com/" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram"/>
-  </a>
-  <a href="https://wa.me/919618348231" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"/>
-  </a>
-  <a href="https://facebook.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"/>
-  </a>
-  <a href="https://github.com/VenkateshJaggaraju" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/fa2a55/github.png" alt="GitHub" style="filter: hue-rotate(310deg);"/>
-  </a>
-</p>
+## 📝 Latest Blog Posts
+*(You can link your blogs or articles here if you start writing on Medium or Dev.to)*  
+- [Coming Soon]()
 
 ---
 
-## 📫 Contact
+## ☕ Support My Work
 
-📧 **Email:** [venkateshjaggaraju2002@gmail.com](mailto:venkateshjaggaraju2002@gmail.com)  
-📱 **Phone:** [+91 96183 48231](tel:+919618348231)
+If you like my projects and want to support my learning journey:  
+[![Buy Me A Coffee](https://img.shields.io/badge/☕-Buy%20Me%20A%20Coffee-orange)](https://www.buymeacoffee.com/)
 
 ---
 
-⭐ *"Building ideas into impactful applications through code."*  
-— *Venkatesh Jaggaraju*
+⭐ *“Turning ideas into impactful web applications through code.”*  
+— **Venkatesh Jaggaraju**
