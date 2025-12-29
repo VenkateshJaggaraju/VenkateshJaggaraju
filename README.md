@@ -13,11 +13,11 @@
 
 ## 🚀 About Me
 
-- Java Developer with hands-on experience in **Spring Boot & REST APIs**
-- Built **production-style backend applications** with MySQL
+- Java Developer with strong hands-on experience in **Spring Boot & REST APIs**
+- Built backend applications using **Core Java, OOP, Collections, JDBC, Hibernate**
+- Worked with **MySQL** for database design and SQL queries
 - Experience deploying applications using **Docker & AWS EC2**
-- Strong foundation in **Core Java, OOP, Collections, JDBC, Hibernate**
-- Actively preparing for **Java Backend / Full Stack Developer roles**
+- Actively seeking **SDE-1 / Backend Developer** opportunities
 
 ---
 
@@ -35,22 +35,20 @@
 
 ### 🛒 FlipZone – E-Commerce Web Application
 - Developed backend using **Spring Boot**
-- Designed REST APIs with **MySQL integration**
+- Designed REST APIs and integrated **MySQL**
 - Implemented CRUD operations and request handling
-- Focused on scalability and clean architecture
+- Followed clean code and layered architecture
 
 ### 🤖 Object Detection Using CNN
-- Built object detection system using **CNN & TensorFlow**
+- Built an object detection system using **CNN & TensorFlow**
 - Achieved **85% accuracy**
-- Gained hands-on experience with ML model integration
+- Hands-on experience with ML model implementation
 
 ### 🎟️ Ticket Booking Applications
-- Built applications using **Spring Boot + JSP / Thymeleaf**
+- Built using **Spring Boot + JSP / Thymeleaf**
 - Implemented MVC architecture and backend logic
 
 ---
-
-## 📊 GitHub Stats
 
 ## 📊 GitHub Stats
 
@@ -58,10 +56,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true&theme=tokyonight" />
 </p>
 
-
 ---
-
-## 🔥 GitHub Streak
 
 ## 🔥 GitHub Streak
 
@@ -69,14 +64,14 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=VenkateshJaggaraju&theme=tokyonight" />
 </p>
 
-
 ---
 
 ## 📫 Contact Me
 
 📧 Email: venkateshjaggaraju2002@gmail.com  
 💼 LinkedIn: https://linkedin.com/in/venkatesh-jaggaraju  
+🐙 GitHub: https://github.com/VenkateshJaggaraju  
 
 ---
 
-📌 *Let’s build scalable, secure, and impactful backend applications together!* 🚀
+📌 *Let’s build scalable and impactful backend systems together!* 🚀
