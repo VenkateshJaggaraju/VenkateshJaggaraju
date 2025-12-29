@@ -44,9 +44,7 @@
 - Achieved **85% accuracy**
 - Hands-on experience with ML model implementation
 
-### 🎟️ Ticket Booking Applications
-- Built using **Spring Boot + JSP / Thymeleaf**
-- Implemented MVC architecture and backend logic
+
 
 ---
 
