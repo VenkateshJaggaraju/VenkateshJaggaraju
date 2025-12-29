@@ -15,7 +15,7 @@
 
 - Java Developer with strong hands-on experience in **Spring Boot & REST APIs**
 - Built backend applications using **Core Java, OOP, Collections, JDBC, Hibernate**
-- Worked with **MySQL** for database design and optimized SQL queries
+- Worked with **MySQL** for database design and SQL queries
 - Experience deploying applications using **Docker & AWS EC2**
 - Actively seeking **SDE-1 / Backend Developer** opportunities
 
@@ -53,7 +53,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true&theme=tokyonight" />
 </p>
 
 ---
@@ -61,7 +61,7 @@
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VenkateshJaggaraju" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VenkateshJaggaraju&theme=tokyonight" />
 </p>
 
 ---
