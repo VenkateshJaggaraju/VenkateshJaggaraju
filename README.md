@@ -52,37 +52,23 @@
 
 ## 📊 GitHub Stats
 
+## 📊 GitHub Stats
+
 <p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true&theme=dark"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true&theme=default"
-      media="(prefers-color-scheme: light)"
-    />
-    <img src="https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true" />
-  </picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=VenkateshJaggaraju&show_icons=true&theme=tokyonight" />
 </p>
+
 
 ---
 
 ## 🔥 GitHub Streak
 
+## 🔥 GitHub Streak
+
 <p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-streak-stats.herokuapp.com/?user=VenkateshJaggaraju&theme=dark"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source 
-      srcset="https://github-readme-streak-stats.herokuapp.com/?user=VenkateshJaggaraju&theme=default"
-      media="(prefers-color-scheme: light)"
-    />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=VenkateshJaggaraju" />
-  </picture>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VenkateshJaggaraju&theme=tokyonight" />
 </p>
+
 
 ---
 
