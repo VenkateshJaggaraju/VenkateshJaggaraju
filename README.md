@@ -59,6 +59,14 @@ I love learning new technologies and contributing to real-world projects. Let's 
 
 ---
 
+### 🤖 AI Tools
+![ChatGPT](https://img.shields.io/badge/ChatGPT-green?style=for-the-badge&logo=openai)
+![Gemini](https://img.shields.io/badge/Gemini-blue?style=for-the-badge&logo=google)
+![Claude](https://img.shields.io/badge/Claude-orange?style=for-the-badge)
+![Perplexity](https://img.shields.io/badge/Perplexity-black?style=for-the-badge)
+
+---
+
 ## 🚀 Projects
 
 Here are some of my featured projects:
