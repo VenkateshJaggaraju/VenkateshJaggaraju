@@ -14,7 +14,7 @@ I'm an **Aspiring Java Full Stack Developer with DevOps skills**, passionate abo
 
 💡 I specialize in:
 - Designing **RESTful APIs** using Spring Boot  
-- Creating **responsive UI** with HTML, CSS, JavaScript 
+- Creating **responsive UI** with HTML, CSS, JavaScript , React.js
 - Implementing **CI/CD pipelines** with Jenkins & Docker  
 - Working with **cloud & Linux environments**
 
