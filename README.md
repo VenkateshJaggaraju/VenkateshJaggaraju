@@ -2,7 +2,7 @@
 <h3 align="center">🚀 Java Full Stack Developer | DevOps Engineer | AI Enthusiast </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React+%7C+SQL;DevOps+%7C+Docker+%7C+Jenkins+%7C+Kubernetes+%7C+AWS;ChatGpt+%7C+Gemini+%7C+Perplexity+%7C+Cluade+%7C+CoPilot;Always+Learning+New+Things&center=true&width=500&height=50">
+<img src="https://readme-typing-svg.herokuapp.com?lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React+%7C+TypeScript%7C+SQL;DevOps+%7C+Docker+%7C+Jenkins+%7C+Kubernetes+%7C+AWS;ChatGpt+%7C+Gemini+%7C+Perplexity+%7C+Cluade+%7C+CoPilot;Always+Learning+New+Things&center=true&width=500&height=50">
 </p>
 
 ---
@@ -14,7 +14,7 @@ I'm an **Aspiring Java Full Stack Developer with DevOps skills**, passionate abo
 
 💡 I specialize in:
 - Designing **RESTful APIs** using Spring Boot  
-- Creating **responsive UI** with HTML, CSS, JavaScript , React.js
+- Creating **responsive UI** with HTML, CSS, JavaScript , React.js, TypeScript
 - Implementing **CI/CD pipelines** with Jenkins & Docker  
 - Working with **cloud & Linux environments**
 
@@ -39,6 +39,7 @@ I love learning new technologies and contributing to real-world projects. Let's 
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-purple?style=for-the-badge&logo=bootstrap)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ---
 
 ### 🗄️ Databases
