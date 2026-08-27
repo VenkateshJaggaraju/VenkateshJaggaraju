@@ -72,7 +72,8 @@ I love learning new technologies and contributing to real-world projects. Let's 
 
 Here are some of my featured projects:
 
-- 🔹 **E-Commerce Application** – Spring Boot, REST APIs, MySQL  
+- 🔹 **E-Commerce Application** – Spring Boot, REST APIs, MySQL
+- 🔹 **Placement Week Scheduler** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
 - 🔹 **Employee Management REST API** – Java, Spring Boot  
 - 🔹 **Movie Ticket Booking System** – Spring MVC  
 - 🔹 **ToDo Management App** – HTML, CSS, JavaScript  
