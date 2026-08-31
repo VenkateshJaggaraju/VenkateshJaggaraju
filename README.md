@@ -74,7 +74,8 @@ Here are some of my featured projects:
 
 - 🔹 **E-Commerce Application** – Spring Boot, REST APIs, MySQL
 - 🔹 **Placement Week Scheduler** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
-- 🔹 **Tic Tac Toe Game** – Java, Spring Boot  
+- 🔹 **Tic Tac Toe Game** – Java, Spring Boot
+- 🔹 **Job Portal ATS** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
 - 🔹 **CI/CD Pipeline Project** – Jenkins + Docker + AWS  
 - 🔹 **Monitoring System** – Prometheus & Grafana  
 
