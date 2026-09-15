@@ -13,7 +13,8 @@ Hi there! 👋
 I'm an **Aspiring Java Full Stack Developer with DevOps skills**, passionate about building **scalable web applications** and **automating deployments**.
 
 💡 I specialize in:
-- Designing **RESTful APIs** using Spring Boot  
+- Designing **RESTful APIs** using Spring Boot, Spring Data JPA and Spring Security
+- Handling **API Security** (OAuth2, JWT, Role-Based Access Control)
 - Creating **responsive UI** with HTML, CSS, JavaScript , React.js, TypeScript
 - Implementing **CI/CD pipelines** with Jenkins & Docker  
 - Working with **cloud & Linux environments**
@@ -77,7 +78,7 @@ Here are some of my featured projects:
 - 🔹 **Placement Week Scheduler** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
 - 🔹 **Tic Tac Toe Game** – Java, Spring Boot
 - 🔹 **Job Portal ATS** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
-- 🔹 **On Demand Service Booking Platform** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
+- 🔹 **On Demand Service Booking Platform** – Spring Boot, Spring Security, REST APIs, MySQL, React.js, TypeScript
 - 🔹 **CI/CD Pipeline Project** – Jenkins + Docker + AWS  
 - 🔹 **Monitoring System** – Prometheus & Grafana  
 
