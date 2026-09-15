@@ -45,7 +45,8 @@ I love learning new technologies and contributing to real-world projects. Let's 
 ### 🗄️ Databases
 ![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)
 ![Oracle](https://img.shields.io/badge/Oracle-red?style=for-the-badge&logo=oracle)
-
+![SQL*Plus](https://img.shields.io/badge/SQL*Plus-F80000?style=for-the-badge&logo=oracle)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
 ---
 
 ### ⚙️ DevOps & Tools
@@ -76,6 +77,7 @@ Here are some of my featured projects:
 - 🔹 **Placement Week Scheduler** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
 - 🔹 **Tic Tac Toe Game** – Java, Spring Boot
 - 🔹 **Job Portal ATS** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
+- 🔹 **On Demand Service Booking Platform** – Spring Boot, REST APIs, MySQL, React.js, TypeScript
 - 🔹 **CI/CD Pipeline Project** – Jenkins + Docker + AWS  
 - 🔹 **Monitoring System** – Prometheus & Grafana  
 
