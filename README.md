@@ -29,6 +29,7 @@ I love learning new technologies and contributing to real-world projects. Let's 
 ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
 ![Spring](https://img.shields.io/badge/Spring-green?style=for-the-badge&logo=spring)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-brightgreen?style=for-the-badge&logo=springboot)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-green?style=for-the-badge&logo=springsecurity)
 ![Hibernate](https://img.shields.io/badge/Hibernate-brown?style=for-the-badge&logo=hibernate)
 ![Maven](https://img.shields.io/badge/Maven-red?style=for-the-badge&logo=apachemaven)
 
