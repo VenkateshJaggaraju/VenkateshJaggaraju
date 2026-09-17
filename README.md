@@ -68,6 +68,7 @@ I love learning new technologies and contributing to real-world projects. Let's 
 ![Gemini](https://img.shields.io/badge/Gemini-blue?style=for-the-badge&logo=google)
 ![Claude](https://img.shields.io/badge/Claude-orange?style=for-the-badge)
 ![Perplexity](https://img.shields.io/badge/Perplexity-black?style=for-the-badge)
+![Copilot](https://img.shields.io/badge/GitHub%20Copilot-black?style=for-the-badge&logo=githubcopilot)
 
 ---
 
